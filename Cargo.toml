@@ -1,0 +1,15 @@
+[package]
+name = "RRR-RUST-RAPID-RESET"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-rustls = { version = "0.24" }
+rustls = { version = "0.21", features = ["dangerous_configuration"] }
+webpki-roots = "0.25"
+http = "0.2"
+h2 = "0.3"
+rand = "0.8"
+clap = { version = "4", features = ["derive"] }
+indicatif = "0.17"
